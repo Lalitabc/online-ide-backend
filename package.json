@@ -1,0 +1,23 @@
+{
+  "name": "oneline-ide",
+  "version": "1.0.0",
+  "description": "Code compiler for web base",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "code",
+    "compiler",
+    "oneline",
+    "editor"
+  ],
+  "author": "Lalit Max",
+  "license": "ISC",
+  "dependencies": {
+    "compilex": "^0.7.4",
+    "cors": "^2.8.5",
+    "express": "^4.21.0"
+  }
+}
