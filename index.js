@@ -33,7 +33,7 @@ app.post("/runCppCode", (req, res) => {
         }
 
         const envData = {
-            OS: "windows",
+            OS: "linux",
             cmd: "g++",
             options: { timeout: 5000 }
         };
